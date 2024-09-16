@@ -24,7 +24,7 @@ class Add extends JFrame implements ActionListener{
         add(t1);
         add(b);
         add(l);
-        b.addActionListener(null);
+        b.addActionListener(this);
         setLayout(new FlowLayout());
         setVisible(true);
         setSize(400,400);
